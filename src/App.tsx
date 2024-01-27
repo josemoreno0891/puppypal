@@ -10,6 +10,7 @@ function App() {
 
   function handleClick() {
     // some logic here
+     
   }
   return (
     <div className="App">
@@ -18,9 +19,10 @@ function App() {
           <p onClick={()=>{ setFeatPupId(puppy.id)}} key={puppy.id}>
             {puppy.name}
           </p>
+         
         );
       })}
-      <p></p>
+      <p>{featPupId}</p>
     </div>
   );
 }
