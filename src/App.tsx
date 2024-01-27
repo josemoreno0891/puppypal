@@ -12,7 +12,7 @@ function App() {
     // some logic here
      setFeatPupId(puppyId);
   }
-  const featuredPup = puppies.find((pup)=> pup.id === featPupId)
+  const featuredPup = puppies.find((puppy) => puppy.id === featPupId);
   return (
     <div className="App">
       {puppies.map((puppy) => {
